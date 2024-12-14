@@ -11,9 +11,9 @@ showinSearchEngines: true
 
 
 # Set basic server info
-serverName: Moonrise MC
+serverName: امیرعلی صفاری
 serverDescription: A Minecraft server where we have lots of fun!
-serverIP: trexmine.com
+serverIP: play.trexmine.com
 useBedrockForOnlineStatus: false
 
 
