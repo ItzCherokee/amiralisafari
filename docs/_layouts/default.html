@@ -79,8 +79,8 @@ layout: compress
 
         <!-- show loading for status API only if javascript is enabled -->
         <script>
-            document.getElementById("serverStatus").innerHTML = "Loading...";
-            document.getElementById("serverStatusM").innerHTML = "Loading...";
+            document.getElementById("serverStatus").innerHTML = "درحال بارگیری";
+            document.getElementById("serverStatusM").innerHTML = "درحال بارگیری";
         </script>
         {% endif %}
 
@@ -89,8 +89,7 @@ layout: compress
     {{ content }}
 
     <div class="layoutfooter w-full pb-8 text-center transition duration-200">
-        <a href="https://github.com/coffeebank/moonrise" rel="noopener" title="Moonrise by coffeebank" class="hover:text-gray-400">Powered by Moonrise</a> &middot; 
-        <a href="{% if site.siteFooterlink %}{{ site.baseurl }}{{ site.siteFooterlink }}{% else %}{{ site.baseurl }}/about{% endif %}" rel="noopener" title="Legal" class="hover:text-gray-400">&copy; {{ site.siteYear }}<script>new Date().getFullYear()>{{ site.siteYear }}&&document.write("&#8208;"+new Date().getFullYear());</script> {{ site.serverName }} &middot; About/Contact</a>
+        <a href="{% if site.siteFooterlink %}{{ site.baseurl }}{{ site.siteFooterlink }}{% else %}{{ site.baseurl }}/about{% endif %}" rel="noopener" title="Legal" class="hover:text-gray-400">&copy; {{ site.siteYear }}<script>new Date().getFullYear()>{{ site.siteYear }}&&document.write("&#8208;"+new Date().getFullYear());</script> {{ site.serverName }} &middot; تمامی حقوق این وبسایت مطعلق به امیرعلی صفاری میباشد</a>
     </div>
 
     {% if page.navname == "Home" %}
