@@ -11,9 +11,9 @@ showinSearchEngines: true
 
 
 # Set basic server info
-serverName: امیرعلی صفاری
-serverDescription: A Minecraft server where we have lots of fun!
-serverIP: play.trexmine.com
+serverName: گیم آپ
+serverDescription: سرور ماینکرافت گیم آپ
+serverIP: Mc.Gameup.Ir
 useBedrockForOnlineStatus: false
 
 
