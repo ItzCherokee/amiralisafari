@@ -4,7 +4,7 @@
 :root {
     --text-color: #eee;
     --text-light: #ccc;
-    --text-rounded: 0.65rem;
+    --text-rounded: 20%;
     --text-mb: 1.65rem;
     --button-bg: #444;
     --button-bg-light: #555;
@@ -99,7 +99,7 @@ code { /* overridden by pre code */
     padding-bottom: 0.25rem;
     font-size: 0.95em;
     background-color: rgba(0,0,0,0.2);
-    border-radius: 0.25rem;
+    border-radius: 30%;
 }
 
 img {
